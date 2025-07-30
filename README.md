@@ -8,17 +8,18 @@ This tool adds the following key-combinations for rectangular and curly brackets
 
 
 # Installation:
-1. 
-```bash
-brew install python
-python3 -m pip install --uprade pip
-python3 -m pip install pynput
-git pull 
-```
+1. Install requirements + pull
+   ```bash
+   brew install python
+   python3 -m pip install --uprade pip
+   python3 -m pip install pynput
+   git pull https://github.com/NantoNaku/Rectangular-and-Curly-Brackets-Remap-Tool-MacBook-.git
+   ```
+
 2. System Settings -> Privacy & Security -> Accessibility:
-   - Add your terminal here.
+   - Add your terminal here. (For example the "terminal" program installed on your MAC (default))
 3. System Settings -> Privacy & Security -> Input Monitoring:
-   - Add your terminal here.
+   - Add your terminal here. (For example the "terminal" program installed on your MAC (default))
 
 # Start / Stop the Script:
 ```bash
@@ -27,10 +28,10 @@ git pull
 ```
 
 # Advice:
-1. Write an Alias for the .sh scripts.
-   That way you don't have to enter the directory every time you wanna start it.
-- keymap-start
-- keymap-stop
+Write an Alias for the .sh scripts.
+That way you don't have to enter the directory every time you wanna start it.
+   - keymap-start
+   - keymap-stop
 
 
 # Motivation:
@@ -45,13 +46,13 @@ I bound those keys on 8 / 9 because the "normal" brackets => () are mapped on th
 You can just change the python script if you want to remap those.
 
 If you have security concerns regarding the permissions you give to the terminal:
-- You can check the python script -> It's basically just a pynput script that creates the new keybinds. There is no traffic going out to anywhere.
-- If you're really sceptical, you could use the default terminal installed on Mac.
-- If you're super sceptical; Copy the idea, write your own variant.
+   - You can check the python script -> It's basically just a pynput script that creates the new keybinds. There is no traffic going out to anywhere.
+   - If you're really sceptical, you could use the default terminal installed on Mac.
+   - If you're super sceptical; Copy the idea, write your own variant.
 
 # Troubleshoots:
-- .sh files are not excecutable:
-```bash
-sudo chmod a+x ./keymap-start.sh
-sudo chmod a+x ./keymap-stop.sh
-```
+   - .sh files are not excecutable:
+   ```bash
+   sudo chmod a+x ./keymap-start.sh
+   sudo chmod a+x ./keymap-stop.sh
+   ```

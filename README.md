@@ -13,7 +13,7 @@ This tool adds the following key-combinations for rectangular and curly brackets
    brew install python
    python3 -m pip install --uprade pip
    python3 -m pip install pynput
-   git pull https://github.com/NantoNaku/Rectangular-and-Curly-Brackets-Remap-Tool-MacBook-.git
+   git clone https://github.com/NantoNaku/Rectangular-and-Curly-Brackets-Remap-Tool-MacBook-.git
    ```
 
 2. System Settings -> Privacy & Security -> Accessibility:
